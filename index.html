@@ -13,6 +13,64 @@
     <link rel="stylesheet" href="css/index.css" />
   </head>
   <body>
+    <div class="container">
+      <section class="profile-main">
+        <div class="profile-main-item profile-main-form">
+          <form action="">
+            <div class="input-container">
+              <label for="profile-photo">Foto de perfil:</label>
+              <input type="file" id="profile-photo" />
+            </div>
+            <div class="input-container">
+              <label for="name">Nombre:</label>
+              <input type="text" class="input-container-text" id="name" />
+            </div>
+            <div class="input-container">
+              <label for="phone">Teléfono:</label>
+              <input type="text" class="input-container-text" id="phone" />
+            </div>
+            <div class="input-container">
+              <label for="email">Correo Electónico:</label>
+              <input type="text" class="input-container-text" id="email" />
+            </div>
+          </form>
+        </div>
+        <div class="profile-main-item profile-main-view">
+          <div class="profile-main-view-image">
+            <img
+              src="images/image.svg"
+              alt="Imagen de perfil"
+              class="img-profile"
+              width="250px"
+              height="250px"
+            />
+          </div>
+          <div class="profile-main-view-item">
+            <div class="profile-item">
+              <h2 id="name-view">Nombre</h2>
+            </div>
+            <div class="profile-item">
+              <img
+                src="images/email.svg"
+                alt="Icono deCorreo Electónico"
+                width="25px"
+                height="25px"
+              />
+              <span id="email-view">Correo electrónico</span>
+            </div>
+            <div class="profile-item">
+              <img
+                src="images/phone.svg"
+                alt="Icono de Teléfono"
+                width="25px"
+                height="25px"
+              />
+              <span id="phone-view">Teléfono</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
     <script src="js/index.js"></script>
   </body>
 </html>
