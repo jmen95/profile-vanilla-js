@@ -20,6 +20,7 @@ body {
 .profile-main-item{
     border: 1px solid #ddd;
     width: 100%;
+    padding: 25px;
 }
 
 .profile-main-form{
@@ -45,8 +46,11 @@ body {
 .profile-main-view-item{
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
 }
 .profile-item{
     display: flex;
     justify-content:flex-end;
+    gap: 10px;
 }
