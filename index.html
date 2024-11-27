@@ -11,6 +11,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/index.css" />
+    <script src="js/index.js"></script>
   </head>
   <body>
     <div class="container">
@@ -22,16 +23,31 @@
               <input type="file" id="profile-photo" />
             </div>
             <div class="input-container">
-              <label for="name">Nombre:</label>
-              <input type="text" class="input-container-text" id="name" />
+              <label for="name-input">Nombre:</label>
+              <input
+                type="text"
+                class="input-container-text"
+                id="name-input"
+                onkeyup="onChangeName(event)"
+              />
             </div>
             <div class="input-container">
-              <label for="phone">Teléfono:</label>
-              <input type="text" class="input-container-text" id="phone" />
+              <label for="email-input">Correo Electónico:</label>
+              <input
+                type="text"
+                class="input-container-text"
+                id="email-input"
+                onkeyup="onChangeEmail(event)"
+              />
             </div>
             <div class="input-container">
-              <label for="email">Correo Electónico:</label>
-              <input type="text" class="input-container-text" id="email" />
+              <label for="phone-input">Teléfono:</label>
+              <input
+                type="text"
+                class="input-container-text"
+                id="phone-input"
+                onkeyup="onChangePhone(event)"
+              />
             </div>
           </form>
         </div>
@@ -71,6 +87,5 @@
         </div>
       </section>
     </div>
-    <script src="js/index.js"></script>
   </body>
 </html>
